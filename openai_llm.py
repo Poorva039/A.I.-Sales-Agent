@@ -13,7 +13,7 @@ from langchain.vectorstores import Chroma
 
 
 # OpenAI key
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 
 # OpenAI LLM 
 llm = OpenAI(temperature=0.9, verbose=True)
